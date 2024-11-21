@@ -1,0 +1,55 @@
+.navegation {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    nav {
+      a {
+        text-decoration: none;
+        padding: 5px 15px;
+        border-radius: 10px 10px 0 0;
+        cursor: pointer;
+        transition: 0.2s opacity;
+        &:hover {
+          opacity: 0.8;
+          background-color: #cbfdd9;
+          border-color: #cbfdd9;
+        }
+      }
+    }
+  }
+}
+
+.btn {
+  font-size: 100%;
+  padding: 5px 15px;
+  background: linear-gradient(to down, #ab813e, #f0e494);
+  border: 0;
+  cursor: pointer;
+  transition: 0.2s opacity;
+  &:hover {
+    opacity: 0.8;
+    background: #cbfdd9;
+  }
+}
+
+input[type="text"] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
